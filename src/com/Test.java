@@ -10,6 +10,7 @@ public class Test {
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 		IStudent person = (IStudent) ctx.getBean("student");
 		person.addStudent("dragon");
-		// person.addStudent("javadragon");
+//		 person.addStudent("javadragon");
+		 person.deleteStudent("dragon");
 	}
 }

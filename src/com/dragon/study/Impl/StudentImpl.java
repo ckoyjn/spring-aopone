@@ -11,4 +11,10 @@ public class StudentImpl implements IStudent {
 		System.out.println(" »¶Ó­  " + name + "  Äã¼ÓÈëSpring¼ÒÍ¥! ");
 	}
 
+	@Override
+	public void deleteStudent(String name) {
+		// TODO Auto-generated method stub
+		System.out.println("É¾³ı----"+"name");
+	}
+
 }
